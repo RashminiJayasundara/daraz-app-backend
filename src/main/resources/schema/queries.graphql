@@ -1,0 +1,6 @@
+type Query{
+    GetProductsForMoveToLove(id:UserId):[Product]
+    CheckUserIsRegister(email:String):Boolean
+    SendOTP(email:String): Boolean
+    VerifyOTP(otp:VerifyOTP):Boolean
+}

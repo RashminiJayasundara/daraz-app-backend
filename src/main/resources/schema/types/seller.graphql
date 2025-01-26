@@ -1,0 +1,9 @@
+type Seller{
+    user_id: Int,
+    storeName: String,
+    password: String,
+    email: String,
+    phone: String,
+    address: String,
+    role: String
+}

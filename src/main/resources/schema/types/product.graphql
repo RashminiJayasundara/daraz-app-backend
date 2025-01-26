@@ -1,0 +1,12 @@
+type Product{
+    id:Int,
+    name:String,
+    description: String,
+    price: Float,
+    count: Int,
+    category: String,
+    image: String,
+    reviewsCount: Int,
+    soldCount: Int,
+    soldBy: Seller
+}
