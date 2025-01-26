@@ -1,0 +1,5 @@
+type Mutation{
+    SignIn(user:SignInInput):Seller
+    AddProduct(item:AddProduct):Int
+    AddSeller(seller:AddSeller):Int
+}
